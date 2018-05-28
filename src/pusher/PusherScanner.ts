@@ -48,7 +48,7 @@ export class PusherScanner {
                 this.start();
             });
         }).catch((error: Error) => {
-            winston.error("Error getPusherLatestBlock ", JSON.stringify(error));
+            //winston.error("Error getPusherLatestBlock ", JSON.stringify(error));
             utils.setDelay(this.onErrordelay).then(() => {
             winston.info(`Pusher will retry in ${this.onErrordelay}`);
                 this.start();

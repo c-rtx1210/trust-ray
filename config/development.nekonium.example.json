@@ -1,0 +1,30 @@
+{
+    "MONGO": {
+        "URI": "mongodb://localhost:27017/nuko-trust-wallet"
+    },
+    "RPC_SERVER": "http://127.0.0.1:8293",
+    "NETWORK_SYMBOL": "NUKO",
+    "PUSHER": {
+        "APN": {
+            "KEY": "",
+            "KEYID": "",
+            "TEAMID": "",
+            "BUNDLE": ""
+        }
+    },
+    "PARSER": {
+        "DELAYS": {
+            "FORWARD": "",
+            "BACKWARD": ""
+        },
+        "MAX_CONCURRENT_BLOCKS": ""
+    },
+    "AWS": {
+        "S3": {
+            "ACCESSKEYID": "",
+            "SECRETACCESSKEY": ""
+        },
+        "BUCKET": "",
+        "BUCKET_BASE_URL": ""
+    }
+}

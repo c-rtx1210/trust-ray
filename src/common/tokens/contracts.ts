@@ -1,4 +1,5 @@
 export const contracts = {
+/*
     "0x1d462414fe14cf489c7a21cac78509f4bf8cd7c0": {
         id: "canyacoin"
     },
@@ -1667,4 +1668,5 @@ export const contracts = {
     "0xece83617db208ad255ad4f45daf81e25137535bb": {
         id: "invacio"
     }
+*/
 }

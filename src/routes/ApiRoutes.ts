@@ -30,14 +30,14 @@ router.get("/tokens/:address", tokenController.readOneToken);
 router.get("/tokenInfo/:tokenAddress", tokenController.readTokenInfo);
 
 // URLs for push notifications
-router.post("/push/register", pusherController.register);
-router.delete("/push/unregister", pusherController.unregister);
+//router.post("/push/register", pusherController.register);
+//router.delete("/push/unregister", pusherController.unregister);
 
-router.get("/prices", priceController.getPrices);
-router.post("/tokenPrices", tokenPriceController.getTokenPrices);
+//router.get("/prices", priceController.getPrices);
+//router.post("/tokenPrices", tokenPriceController.getTokenPrices);
 
 // URLs for assets
-router.get("/assets", assetsController.getAssets);
+//router.get("/assets", assetsController.getAssets);
 
 
 export {
